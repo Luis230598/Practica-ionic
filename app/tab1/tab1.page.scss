@@ -1,0 +1,68 @@
+body{
+  background-color: aqua;
+}
+ion-title{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+div {
+  text-align: center;
+  width: 300px;
+  padding: 25px;
+  
+  margin: 25px;
+  left: auto;
+}
+h2{
+  text-align: center;
+  width: 350px;
+  padding: 25px;
+ 
+  margin: 25px;
+  left: auto;
+}
+h3{
+  text-align: center;
+  width: 350px;
+  padding: 25px;
+ 
+  margin: 25px;
+  left: auto;
+}
+.card-stats .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding:10px;
+  box-shadow: 0px 1px 1px rgb(248, 244, 244);
+  }
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
