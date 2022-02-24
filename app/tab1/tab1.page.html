@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      <ion-icon name="person-outline"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+  <br>
+<ion-content >
+
+
+<div class="center">
+
+<ion-slides #slides pager="true" [options]="slideOpts" (ionSlideDidChange)="ionSlideChange(slides)">
+
+  <ion-slide class="step-one">
+  <img margintop20 src="../../assets/icon/persona3.jpg" >
+  <p> <ion-icon name="person-outline"></ion-icon>Josue Espejel Flores
+    <br>28 Años
+  <br><ion-icon name="location-outline"></ion-icon> Ciudad de Mexico</p>
+</ion-slide>
+
+<ion-slide class="step-one">
+  <img margintop20 src="../../assets/icon/persona2.jpg" >
+  <p> <ion-icon name="person-outline"></ion-icon>Kasandra Mañon Solis
+    <br>24 Años
+  <br><ion-icon name="location-outline"></ion-icon> Sinaloa</p>
+</ion-slide>
+
+<ion-slide class="step-one">
+  <img margintop20 src="../../assets/icon/persona1.jpg" >
+  <p> <ion-icon name="person-outline"></ion-icon>Mayte Lopez Garcia
+    <br>26 Años
+  <br><ion-icon name="location-outline"></ion-icon> Guadalajara</p>
+</ion-slide>
+
+</ion-slides>
+
+<ion-button class="tour-button" (click)="next()">
+  <div class="parent"> {{buttonName}} </div>
+  </ion-button>
+  
+  </div>
+  
+</ion-content>
+
+
+<ion-button color="danger">Me gusta</ion-button>
